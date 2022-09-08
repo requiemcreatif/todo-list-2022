@@ -23,6 +23,7 @@ main {
 }
 
 .main-container {
+  max-width: 360px;
   margin: 3rem 0;
   border: #edfcfb solid 1px;
   border-radius: 10px;
@@ -42,7 +43,7 @@ main {
 }
 
 .create {
-  width: 40rem;
+  width: 30rem;
   height: 5rem;
 }
 
