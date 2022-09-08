@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+  background-color: #fff;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  margin: 3rem 0;
+  border: #edfcfb solid 1px;
+  border-radius: 10px;
+  padding: 5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3f7c85;
+}
+
+.container {
+  padding: 5rem 0;
+}
+
+.div-input {
+  padding: 2rem 0;
+}
+
+.create {
+  width: 40rem;
+  height: 5rem;
+}
+
+.todo {
+  background-color: #00ccc0;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  gap: 3rem;
+  border: #72f2eb 1px solid;
+  border-radius: 5px;
+}
+
+.remove {
+  background-color: #ff4858;
+  border: none;
+  border-radius: 5px;
+  font-size: 10px;
+  padding: 1rem;
+  color: #72f2eb;
+}
+
+.todo-list-omeruta {
+  text-align: center;
+  text-transform: uppercase;
+  color: #edfcfb;
+}
+
+.transition-remove {
+  transition: all 0.6s ease-out;
+}
+
+main {
+  background-color: #ff5f5d;
+}
+
+.input {
+  height: 3rem;
+  width: 30rem;
+}
